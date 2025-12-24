@@ -25,9 +25,9 @@ List anything else that you can get done to improve the app functionality!
 
 Here's a walkthrough of implemented features:
 
-<video autoplay muted playsinline>
-    <source src="https://i.imgur.com/05xYcBM.mp4" type="video/mp4">
-</video>
+<a href="https://i.imgur.com/05xYcBM.mp4" target="_blank" class="demo-link">
+    View Project Walkthrough
+</a>
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with imgur on macOS
