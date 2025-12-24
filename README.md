@@ -17,7 +17,7 @@ The following **required** functionality is completed:
 
 The following **optional** features are implemented:
 
-* [X] List anything else that you can get done to improve the app functionality!
+List anything else that you can get done to improve the app functionality!
 * [X] Included a bulleted list of game names to be displayed if there are unfunded games.
 * [X] Displayed images of the top 2 funded games in the Stats area. 
 
