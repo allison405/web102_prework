@@ -24,13 +24,12 @@ List anything else that you can get done to improve the app functionality!
 ## Video Walkthrough
 
 Here's a walkthrough of implemented features:
-
 <a href="https://i.imgur.com/05xYcBM.mp4" target="_blank" class="demo-link">
     View Project Walkthrough
 </a>
 
 <!-- Replace this with whatever GIF tool you used! -->
-GIF created with imgur on macOS
+GIF created with imgur
 <!-- Recommended tools:
 [Kap](https://getkap.co/) for macOS
 [ScreenToGif](https://www.screentogif.com/) for Windows
