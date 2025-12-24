@@ -25,7 +25,7 @@ List anything else that you can get done to improve the app functionality!
 
 Here's a walkthrough of implemented features:
 
-<img src='https://imgur.com/a/lOYe5XK' title='Sea Monster Crowdfunding Walkthrough' width='' alt='Project Walkthrough' />
+<img src='https://i.imgur.com/OYe5XK.gif' title='Sea Monster Crowdfunding Walkthrough' width='' alt='Project Walkthrough' />
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with imgur on macOS
