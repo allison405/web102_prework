@@ -1,8 +1,8 @@
-# WEB102 Prework - *Sea Monster Crowdfunding*
+# WEB102 Prework - *Sea Monster*
 
 Submitted by: **Allison Lee**
 
-**Sea Monster Crowdfunding** is a website for the company Sea Monster Crowdfunding that displays information about the games they have funded.
+**Sea Monster** is a website for the company Sea Monster Crowdfunding that displays information about the games they have funded.
 
 Time spent: **2** hours spent in total
 
@@ -36,7 +36,7 @@ GIF created with imgur on macOS
 
 ## Notes
 
-Being able to learn new methods is always useful for projects and keeping on hand for future projects. Figuring out the components that were already created for me and what they hold or do was a little tricky, but I was able to work through it as I continued working into the challenges. Reduce was a new method that I got to learn and apply through this prework, and it took a little time to memorize how to structure it. But the repetitive usage allowed me to get it down by the end of the project! 
+Figuring out the components that were already created for me and what they hold or do was a little tricky at first, but I was able to get through the small bump as I continued working through the challenges. Being able to learn new methods is always useful for projects and keeping them on hand for future projects. Reduce was a new method that I got to learn and apply through this prework, and it took a little time to memorize how to structure it. But the repetitive usage allowed me to get it down by the end of the project! 
 
 ## License
 
