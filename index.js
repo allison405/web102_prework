@@ -142,17 +142,38 @@ allBtn.addEventListener("click", showAllGames);
 // grab the description container
 const descriptionContainer = document.getElementById("description-container");
 
+// collect all unfunded games
+const unfundedGames = GAMES_JSON.filter(game => game.pledged < game.goal);
+
 // use filter or reduce to count the number of unfunded games
 const numUnfunded = GAMES_JSON.reduce((acc, game) => {
     return game.pledged < game.goal ? acc + 1 : acc;
 }, 0);
 
 // create a string that explains the number of unfunded games using the ternary operator
-const unfundedString = numUnfunded > 0 ? `Currently, there are ${numUnfunded.toLocaleString()} unfunded games.` : `All games are funded!`;
+const unfundedString = numUnfunded > 0 ? `Currently, there are ${numUnfunded.toLocaleString()} unfunded games:` : `All games are funded!`;
 
 // create a new DOM element containing the template string and append it to the description container
 const descriptionDiv = document.createElement("div");
-descriptionDiv.innerHTML = unfundedString;
+
+let listHTML = "";
+
+if (numUnfunded > 0) {
+    listHTML = "<ul>";
+    unfundedGames.forEach(game => {
+        listHTML += `<li>${game.name}</li>`;
+    });
+    listHTML += "</ul>";
+
+    descriptionDiv.innerHTML = `
+    <p>${unfundedString}</p>
+    ${listHTML}
+`;
+} else {
+    descriptionDiv.innerHTML = `
+    <p>${unfundedString}</p>
+    `;
+}
 
 descriptionContainer.appendChild(descriptionDiv);
 
@@ -174,10 +195,12 @@ const [firstGame, secondGame, ...rest] = sortedGames;
 
 // create a new element to hold the name of the top pledge game, then append it to the correct element
 const firstGameDiv = document.createElement("div");
-firstGameDiv.innerHTML = `${firstGame.name}`;
+// image of game displayed
+firstGameDiv.innerHTML = `${firstGame.name} <img class="game-img" src="${firstGame.img}" />`;
 firstGameContainer.appendChild(firstGameDiv);
 
 // do the same for the runner up item
 const secondGameDiv = document.createElement("div");
-secondGameDiv.innerHTML = `${secondGame.name}`;
+// image of game displayed
+secondGameDiv.innerHTML = `${secondGame.name} <img class="game-img" src="${secondGame.img}" />`;
 secondGameContainer.appendChild(secondGameDiv);
