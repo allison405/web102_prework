@@ -25,10 +25,10 @@ List anything else that you can get done to improve the app functionality!
 
 Here's a walkthrough of implemented features:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://imgur.com/a/lOYe5XK' title='Sea Monster Crowdfunding Walkthrough' width='' alt='Project Walkthrough' />
 
 <!-- Replace this with whatever GIF tool you used! -->
-GIF created with ...  
+GIF created with imgur on macOS
 <!-- Recommended tools:
 [Kap](https://getkap.co/) for macOS
 [ScreenToGif](https://www.screentogif.com/) for Windows
@@ -36,7 +36,7 @@ GIF created with ...
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+Being able to learn new methods is always useful for projects and keeping on hand for future projects. Figuring out the components that were already created for me and what they hold or do was a little tricky, but I was able to work through it as I continued working into the challenges. Reduce was a new method that I got to learn and apply through this prework, and it took a little time to memorize how to structure it. But the repetitive usage allowed me to get it down by the end of the project! 
 
 ## License
 
